@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Mini Blog from [Getting Started with Rails](guides.rubyonrails.org)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Article with CRUD actions: #index, #show, #new, #edit, #create, #update
+- Comment with CRUD actions: #create, #destroy
+- Article to comment association
+- Partial views
+- Simple HTTP Basic Authentication

@@ -22,9 +22,6 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Make errors better looking
-gem 'better_errors', '~> 2.7', '>= 2.7.1'
-
 # Bulma CSS
 gem 'bulma-rails', '~> 0.9.0'
 
@@ -45,6 +42,12 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  # Guard is a command line tool to easily handle events on file system modifications.
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+  gem 'guard-livereload', '~> 2.5', require: false
+  # Make errors better looking
+  gem 'better_errors', '~> 2.7', '>= 2.7.1'
 end
 
 group :test do
