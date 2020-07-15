@@ -22,6 +22,15 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Make errors better looking
+gem 'better_errors', '~> 2.7', '>= 2.7.1'
+
+# Bulma CSS
+gem 'bulma-rails', '~> 0.9.0'
+
+# Simple Form
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
