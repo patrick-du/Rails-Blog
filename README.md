@@ -1,9 +1,14 @@
 # README
 
-### Mini Blog from [Getting Started with Rails](guides.rubyonrails.org)
+### Mini Blog with Comments
 
-- Article with CRUD actions: #index, #show, #new, #edit, #create, #update
-- Comment with CRUD actions: #create, #destroy
-- Article to comment association
+- Post with actions: #index, #new, #create, #show, #update, #edit, #delete
+- Comment with actions: #create, #destroy
+- Post to comment association
 - Partial views
-- Simple HTTP Basic Authentication
+- Additional Gems:
+    - bulma-rails --> A modern CSS framework based on Flexbox
+    - simple_form --> Forms made easy
+    - guard --> Guard is a command line tool to easily handle events on file system modifications
+    - guard-livereload --> Guard::LiveReload automatically reloads your browser when 'view' files are modified
+    - better_errors --> Provides a better error page for Rails and other Rack apps
