@@ -1,6 +1,4 @@
-# README
-
-### Mini Blog with Comments
+# Mini Blog with Comments
 
 - Post with actions: #index, #new, #create, #show, #update, #edit, #delete
 - Comment with actions: #create, #destroy
